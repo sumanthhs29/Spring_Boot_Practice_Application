@@ -3,6 +3,7 @@ package com.example.pooja_archana.model;
 import lombok.Data;
 
 import javax.persistence.*;
+import javax.validation.constraints.Size;
 import java.util.Date;
 
 @Entity
@@ -14,6 +15,7 @@ public class CategoryEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long categoryId;
 
+    @Size(min = 2)
     @Column(name = "name", nullable = false,unique = true)
     private String name;
 
