@@ -3,16 +3,16 @@
 1] signup -> POST http://localhost:8080/signup
 {
     "name":"ds",
-    "email":"akhil@gmail.com",
-    "mobile":"8764567839",
+    "email":"akhil@gma.com",
+    "mobile":"8764539000",
     "gender":"male",
-    "dob":"29-10-99",
-    "password":"123456"
+    "dob":"29-10-59",
+    "password":"1234573626"
 }
 
 2] login -> POST http://localhost:8080/login
 {
-    "email":"suman@gmail.com",
+    "email":"akhil@gma.com",
     "password":"123456"
 }
 
